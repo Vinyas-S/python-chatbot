@@ -76,7 +76,7 @@ while True :
    pyttsx3.speak("Ok  your  wish " +y)
    print("OK,  your  wish" , y) 
    
-  elif (("exit" in p) or ("quit" in p)):
+  elif (("exit" in p) or ("quit" in p) or ("close" in p)):
    break
 
   else: 
